@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Regex Search Engine</h1>
+        <div class="input-group">
+            <label for="regexInput">Enter Regular Expression:</label>
+            <input type="text" id="regexInput" placeholder="e.g., [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}">
+        </div>
+
+        <button id="searchButton">Search</button>
+
+        <h2>Results:</h2>
+        <div class="output-container">
+            <pre id="results"></pre>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Regex Search Engine. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
